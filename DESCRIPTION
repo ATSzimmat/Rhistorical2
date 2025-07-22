@@ -15,3 +15,5 @@ Imports:
 Depends: 
     R (>= 3.5)
 LazyData: true
+URL: https://github.com/ATSzimmat/Rhistorical2
+BugReports: https://github.com/ATSzimmat/Rhistorical2/issues
