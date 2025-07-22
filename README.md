@@ -1,10 +1,11 @@
 
 <div style="overflow: hidden;">
 
-<img src="images/Logo_historical_end.jpg" width="200" style="float: right; margin-left: 20px;">
+<img src="images/Logo_historical_end.jpg" width="200" style="float: right; margin-left: 20px;"/>
+
 <h1>
 
-R historical v1.1.1
+R historical2 v1.1.1
 </h1>
 
 <p>
@@ -14,7 +15,7 @@ R historical v1.1.1
 
 </div>
 
-Welcome to the package R historical - a new tool that wants to
+Welcome to the package R historical2 - a new tool that wants to
 facilitate work with primary sources of history in R!
 
 To obtain information about the past, it is essential to examine the
@@ -36,7 +37,7 @@ author of this package is currently majoring in history and minoring in
 statistics and data science at the LMU of Munich and has faced this
 challenge several times himself.
 
-## How R historical can simplify a historian’s daily work
+## How R historical2 can simplify a historian’s daily work
 
 When a historian gathers his sources, he is usually faced with an
 overwhelming mountain of sources, spends time reading through them, and
@@ -45,20 +46,20 @@ criticizes, and evaluates. However, he encounters several problems.
 Finding the right sources and even accessing a reliable text of the
 sources and their translation can take ages, and efficiently managing
 and narrowing down the masses of sources is a laborious process. R
-historical is intended as a kind of source manager that aims to
+historical2 is intended as a kind of source manager that aims to
 alleviate these problems as much as possible and enable the historian to
 quickly and efficiently build a dataframe from his sources, which can
 then be further investigated using all the text analysis options R has
-to offer. Appropriate analysis tools might be added to R historical in
+to offer. Appropriate analysis tools might be added to R historical2 in
 the future to further accelerate the workflow.
 
-## How R historical works
+## How R historical2 works
 
-When you install R historical, in addition to the functions, a dataset
+When you install R historical2, in addition to the functions, a dataset
 called the_sources is added. This provides the text of all the source
 excerpts available in the_sources along with corresponding metadata.
 
-<img src="images/Example_data.jpeg" width="1000" style="float: right; margin-left: 20px;">
+<img src="images/Example_data.jpeg" width="1000" style="float: right; margin-left: 20px;"/>
 
 In the future, hopefully all existing sources will be stored there;
 however, in this initial version, the dataset only contains a few
@@ -75,7 +76,7 @@ own concept).
 This source selection can be expanded with hist_include to include your
 own sources that are not (yet) provided as part of the_sources. On the
 other hand, this selection can also be restricted with two other R
-historical functions. With hist_contain, you can limit the source
+historical2 functions. With hist_contain, you can limit the source
 selection to sources that contain specific words, and with hist_delete,
 you can remove unwanted source excerpts directly from your source
 selection. Once you’ve quickly and efficiently created a selection of
@@ -170,5 +171,5 @@ hist_text(Xenophon_Corinthian)
 You can install the package via
 
 ``` r
-remotes::install_github("ATSzimmat/Rhistorical")
+remotes::install_github("ATSzimmat/Rhistorical2")
 ```
