@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Anton", "Szimmat", , "anton.szimmat@campus.lmu.de", role = c("aut", "cre"))
 Description: This package provides functions to facilitate efficient work with primary sources of history in R.
-License: MIT + file LICENSE
+License: LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
