@@ -1,9 +1,9 @@
 Package: Rhistorical2
-Title: What the Package Does (One Line, Title Case)
+Title: Facilitate work with primary sources of history in R
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Anton", "Szimmat", , "anton.szimmat@campus.lmu.de", role = c("aut", "cre"))
+Description: This package provides functions to facilitate efficient work with primary sources of history in R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
